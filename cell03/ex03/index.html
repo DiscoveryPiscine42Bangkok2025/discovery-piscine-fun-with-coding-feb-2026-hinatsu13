@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo_list</title>
+    <script src="todo.js"></script>
+    <style>
+        .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                max-width: 300px;
+                margin: auto;
+                text-align: center;
+                font-family: arial;
+        }
+        button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background-color: #04AA6D;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1 style="text-align: center;">Todo List</h1>
+        <div>
+            <button onclick="newTodo()">New</button> 
+        </div>
+        <div class="card">
+          <div id="ft_list"></div>  
+        </div>
+    </div>
+</body>
+</html>
