@@ -1,4 +1,4 @@
-/* Reset and base styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     padding: 20px;
 }
 
-/* Calculator Container */
+
 .calculator-container {
     background: white;
     padding: 40px;
@@ -25,7 +25,7 @@ body {
     width: 100%;
 }
 
-/* Title */
+
 h1 {
     text-align: center;
     color: #333;
@@ -33,14 +33,14 @@ h1 {
     font-size: 32px;
 }
 
-/* Form */
+
 #calculatorForm {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-/* Calculator Row */
+
 .calc-row {
     display: flex;
     gap: 15px;
@@ -48,7 +48,7 @@ h1 {
     justify-content: center;
 }
 
-/* Input Fields */
+
 .operand-input {
     flex: 1;
     padding: 15px;
@@ -65,7 +65,7 @@ h1 {
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
-/* Operator Select */
+
 .operator-select {
     padding: 15px 20px;
     font-size: 20px;
@@ -83,7 +83,7 @@ h1 {
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
-/* Submit Button */
+
 .submit-btn {
     padding: 18px 40px;
     font-size: 20px;
@@ -108,7 +108,7 @@ h1 {
     transform: translateY(-1px);
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
     .calc-row {
         flex-direction: column;
