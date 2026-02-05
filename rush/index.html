@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
+    <div class="container mx-auto px-4 py-16 md:py-24">
+        <!-- CV Cards Container -->
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <!-- CV1 Card -->
+            <div class="group bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
+                <div class="bg-gradient-to-r from-blue-500 to-indigo-600 h-3"></div>
+                <div class="p-8">
+                        <img src = "CV1/img/profile.jpg" alt="Profile Picture" class="flex items-center justify-center w-20 h-20 rounded-full mb-6 mx-auto group-hover:bg-purple-200 transition-colors">
+
+                    <h2 class="text-3xl font-bold text-gray-800 text-center mb-4">
+                        Kongphop Sinsung
+                    </h2>
+                    <p class="text-gray-600 text-center mb-6">
+                        Professional in<br>Traditional Chinese Dog Cuisine
+                    </p>
+                    <a href="CV1/index.html" class="block w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors duration-300">
+                        View Resume
+                        <span class="ml-2">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- CV2 Card -->
+            <div class="group bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
+                <div class="bg-gradient-to-r from-purple-500 to-pink-600 h-3"></div>
+                <div class="p-8">
+                        <img src = "CV2/img/profile.webp" alt="Profile Picture" class="flex items-center justify-center w-20 h-20 rounded-full mb-6 mx-auto group-hover:bg-purple-200 transition-colors">
+                    <h2 class="text-3xl font-bold text-gray-800 text-center mb-4">
+                        Thathitikarn Chatkornsakul
+                    </h2>
+                    <p class="text-gray-600 text-center mb-6">
+                        ความพยายามไม่มีวันสูญเปล่า<br>เพราะมันไม่ใช่สสารจับต้องไม่ได้อยู่แล้ว
+                    </p>
+                    <a href="CV2/index.html" class="block w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg text-center transition-colors duration-300">
+                        View Resume
+                        <span class="ml-2">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Info -->
+        <div class="text-center mt-16">
+            <p class="text-gray-500 text-sm">
+                Click on any card to explore the resume
+            </p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script>
+        // Smooth scroll animation on load
+        $(document).ready(function() {
+            $('body').css('opacity', '0').animate({opacity: 1}, 600);
+        });
+    </script>
+</body>
+</html>
